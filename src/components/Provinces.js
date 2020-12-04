@@ -9,7 +9,7 @@ export default function Provinces(props) {
   }
   return (
     <li>
-      <h3 id={"state" + index + 1} onClick={handleClicked}>
+      <h3 id={"state" + (index + 1)} onClick={handleClicked}>
         {name}
       </h3>
       {clicked ? (
